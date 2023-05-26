@@ -1,10 +1,8 @@
-import { Home } from './src/screens/Home';
-import { CreateClass } from './src/screens/CreateClass';
-import { Teams } from './src/screens/Teams';
+import { Routes } from './src/routes/Routes';
 
 export default function App() {
   return (
-    <Teams/>
+    <Routes/>
   );
 }
 

@@ -1,11 +1,12 @@
 import React from "react";
-import { View, Text, Image, ScrollView } from "react-native";
+import { View, ScrollView } from "react-native";
 
 import { Class } from "../components/Class";
 import { NewClass } from "../components/NewClass";
 
 import { styles } from "./style";
 import { BillBoard } from "../components/BillBoard";
+import { useNavigation } from "@react-navigation/native";
 
 export function Home() {
   return (
